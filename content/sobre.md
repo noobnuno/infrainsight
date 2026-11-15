@@ -22,16 +22,14 @@ Escrevo sobre o que monto, configuro e estrago em casa, num laboratório feito c
 
 ## Sobre mim
 
-Sou [o teu nome / pseudónimo]. Trabalho em infraestrutura há cerca de dez anos, com experiência em manutenção de redes (sobretudo Layer 2), servidores virtuais em VMware, backups com Veeam, monitorização com PRTG e firewalls Palo Alto, incluindo a substituição de firewalls em produção em vários sites.
+Sou o Nuno. Trabalho em informática e infraestruturas há mais de 20 anos, com experiência em manutenção de redes, servidores virtuais em VMware, backups com Veeam, monitorização com PRTG e gestão de firewalls Check Point e Palo Alto, incluindo a substituição de firewalls em produção em vários sites.
 
 Gosto especialmente de redes, e o laboratório é a minha forma de experimentar, aprender e treinar longe de ambientes de produção.
 
 ## O laboratório
 
+Este laboratório tem uma regra: **custo zero**. Não gasto nada a comprar hardware nem software. Uso equipamento que já tinha em casa e ferramentas gratuitas, para mostrar que dá para aprender e experimentar a sério sem investir dinheiro.
+
 O lab vive num móvel de madeira com rodas que estou a construir, e todos os equipamentos têm nomes de locais do universo de Harry Potter: `hogwarts` (o hypervisor), `gringotts` (o storage) e por aí fora. Podes acompanhar a construção nos posts da série.
 
-## Contacto
 
-[Escolhe o que queres partilhar: email, LinkedIn, GitHub...]
-
-Se encontrares um erro num guia ou tiveres uma sugestão, escreve-me. Fico sempre a aprender com isso.
