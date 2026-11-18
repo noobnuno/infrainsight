@@ -1,7 +1,7 @@
 ---
 title: "Como comecei o meu homelab: inventário e primeiras decisões de arquitetura"
 date: 2026-11-08
-draft: true
+draft: false
 summary: "O hardware que já tinha, as decisões de arquitetura (Proxmox, TrueNAS, ZFS, VLANs) e a regra do projeto: custo zero."
 tags: ["homelab", "proxmox", "truenas", "zfs", "vlan"]
 showTableOfContents: true
@@ -56,7 +56,7 @@ Com três discos saudáveis, a escolha estava entre RAIDZ1 e um mirror. Fui para
 A integração com o Proxmox vai ser via **NFS**, com um dataset por finalidade (discos das VMs, backups, ISOs), cada um com a sua partilha. É mais simples de configurar e de diagnosticar do que iSCSI, com desempenho suficiente para esta fase.
 
 ### Rede: VLANs sobre os switches Cisco
-Os dois Catalyst 3750 ligam-se em stack e suportam trunk, por isso vou segmentar em pelo menos 3 VLANs, com o ID da VLAN a coincidir com o segundo octeto do endereço:
+Os dois Catalyst 3750 ligam-se em stack e suportam trunk, por isso vou segmentar em pelo menos 3 VLANs, com o ID da VLAN a coincidir com o terceiro octeto do endereço:
 
 | VLAN | ID | Rede | Propósito |
 |---|---|---|---|
@@ -68,7 +68,7 @@ O portátil só tem uma porta Ethernet, por isso a gestão, o storage e as VMs v
 
 Deixo ainda reservadas, sem as configurar, as VLANs para clientes, servidores, Wi-Fi, visitantes, IoT e impressoras, para o dia em que o laboratório crescer.
 
-![Topologia de rede do homelab](/images/topologia-rede.png)
+![Topologia de rede do homelab](/images/infrainsight_homelab_topologia.png)
 
 ### Nomes: tudo em Hogwarts
 Sou fã de Harry Potter e de mundos de fantasia em geral, por isso, em vez de acabar com `server1` e `server2`, dei aos equipamentos nomes de locais desse universo:
@@ -98,7 +98,7 @@ O domínio interno será `hogwarts.lan`.
 
 ## O que esperar dos próximos posts
 
-Vou documentar cada fase com o processo real — incluindo o que correu mal. Os próximos posts: a história completa do storage (testes de disco que falharam, setores a recuperar, e um TrueNAS que mudou o sítio onde se agendam os testes SMART), a construção do móvel de madeira com rodas e prateleiras ventiladas onde tudo isto vai ficar montado, e a configuração da rede.
+Vou documentar cada fase com o processo real — incluindo o que correu mal. Os próximos posts: a história completa do storage (testes de disco que falharam, setores a recuperar, e um TrueNAS que mudou o sítio onde se agendam os testes SMART), a configuração da rede (os dois Catalyst 3750 em stack e as VLANs) e a instalação do Proxmox. O móvel de madeira onde tudo isto vai ficar montado vai sendo construído quando houver tempo, e conto-o à parte.
 
 ---
 
