@@ -4,7 +4,7 @@
 
 theme = "blowfish" # UNCOMMENT THIS LINE
 baseURL = "https://infrainsight.pt/"
-defaultContentLanguage = "en"
+defaultContentLanguage = "pt"
 title = "Infra Insight"
 
 # pluralizeListTitles = "true" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles
