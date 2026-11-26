@@ -1,9 +1,11 @@
 ---
-title: "Como comecei o meu homelab: inventário e primeiras decisões de arquitetura"
+title: "Como começar um homelab com hardware reciclado: inventário, VLANs e nomenclatura (Parte 1)"
 date: 2026-11-08
 draft: false
 summary: "O hardware que já tinha, as decisões de arquitetura (Proxmox, TrueNAS, ZFS, VLANs) e a regra do projeto: custo zero."
 tags: ["homelab", "proxmox", "truenas", "zfs", "vlan"]
+featureImage: "img/capa-post-01.png"
+series: ["Homelab a Custo Zero"]
 showTableOfContents: true
 ---
 
