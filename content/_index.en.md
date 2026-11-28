@@ -6,6 +6,6 @@ heroButtons:
   - label: "Read the posts"
     url: "/en/posts/"
   - label: "About"
-    url: "/en/sobre/"
+    url: "/en/about/"
     style: "outline"
 ---

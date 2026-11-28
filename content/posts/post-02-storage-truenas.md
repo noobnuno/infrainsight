@@ -4,13 +4,13 @@ date: 2026-11-11
 draft: true
 summary: "TrueNAS, ZFS em mirror e uma semana a descobrir que três discos 'PASSED' não eram de confiança — com todos os comandos."
 tags: ["homelab", "truenas", "zfs", "smart", "storage", "nfs"]
-featureImage: "/img/capa-post-02.png"
+featureImage: "img/capa-post-02.png"
 series: ["Homelab a Custo Zero"]
 showTableOfContents: true
 
 ---
 
-*Post 2 da série. No [post 1](/posts/post-01-inventario-e-arquitetura/) apresentei o inventário e as decisões de arquitetura. Aqui conto a fase do storage, com os erros incluídos — e foram vários.*
+*Post 2 da série. No [post 1]({{< ref "post-01-inventario-e-arquitetura" >}}) apresentei o inventário e as decisões de arquitetura. Aqui conto a fase do storage, com os erros incluídos — e foram vários.*
 
 O plano parecia simples: instalar o TrueNAS num PC antigo, juntar os discos num pool ZFS e partilhar o espaço com o Proxmox por NFS. A parte do software correu bem. A parte dos discos deu muito mais que contar.
 

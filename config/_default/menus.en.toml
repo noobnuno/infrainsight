@@ -5,7 +5,7 @@
 
 [[main]]
   name = "About"
-  pageRef = "sobre"
+  pageRef = "about"
 
 [[main]]
   name = "Tags"

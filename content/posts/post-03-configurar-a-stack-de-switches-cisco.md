@@ -4,7 +4,7 @@ date: 2026-11-20
 draft: true
 summary: "Configuração do stack Cisco Catalyst 3750G do zero: limpeza de configuração no master, eleição de prioridade, VLANs 10, 20, 30 e 999, trunks 802.1Q e hardening de acesso via SSHv2."
 tags: ["homelab", "cisco", "networking", "vlan", "switching", "ssh"]
-featureimage: "/img/capa-post-03.png"
+featureImage: "img/capa-post-03.png"
 series: ["Homelab a Custo Zero"]
 showTableOfContents: true
 ---

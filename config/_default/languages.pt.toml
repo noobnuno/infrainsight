@@ -9,9 +9,9 @@ title = "Infra Insight"
   isoCode = "pt"
   rtl = false
   dateFormat = "2 January 2006"
-  # logo = "img/logo.png"
+  logo = "img/logo.png"
   # secondaryLogo = "img/secondary-logo.png"
-  # description = "My awesome website"
+  description = "Guias práticos de homelab, redes, storage e virtualização a custo zero."
   # copyright = "Copy, _right?_ :thinking_face:"
 
 # [params.author]

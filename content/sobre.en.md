@@ -1,6 +1,7 @@
 ---
 title: "About"
 date: 2026-10-29
+slug: "about"
 draft: false
 hidemeta: true
 ShowToc: false
